@@ -25,10 +25,11 @@ SECRET_KEY = 'django-insecure-xi0t%$@1@r2^3&luajbzz-xep(&ajj%cq2+@!pfbvmb^n4u4^9
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['cemetery-management-system-9mm4.onrender.com']
 
 CORS_ALLOWED_ORIGINS = [
-    'http://localhost:5173'
+    'http://localhost:5173',
+    'https://cemetery-management-system-9mm4.onrender.com',
 ]
 # Application definition
 
